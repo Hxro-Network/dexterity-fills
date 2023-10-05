@@ -4,6 +4,8 @@ This script
 
 1. Hits the /fills/ endpoint, inserting results into sqlite
 2. Shows metrics about the fills, including total volume, average volume by day, etc.
+3. Is currently hardcoded to only fetch data for ZDFs (NOT PERPs) 
+4. Is currently hardcoded to a set of underlyings --- OPOS, ETH, BITCOIN
 
 # Example Output
 

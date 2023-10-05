@@ -5,6 +5,33 @@ This script
 1. Hits the /fills/ endpoint, inserting results into sqlite
 2. Shows metrics about the fills, including total volume, average volume by day, etc.
 
+# Example Output
+
+```
+Total Volume: $69,512.43
+
+Volume Per Product:
+BITCOIN $48,160.99
+OPOS $20,300.61
+ETH $1,050.83
+
+Best Days:
+29 Sep 2023 $13,795.39
+18 Sep 2023 $12,125.87
+14 Sep 2023 $8,563.52
+30 Sep 2023 $6,505.22
+12 Sep 2023 $5,529.85
+11 Sep 2023 $4,658.03
+13 Sep 2023 $4,640.44
+
+Average Notional Volume Per Day: 3159.6558272727275
+
+Average Notional Volume Per Day Per Product:
+BITCOIN $2,833.00
+ETH $262.71
+OPOS $6,766.87
+```
+
 # Running it
 
 First, create an sqlite database at `fills.sqilte` inside the cloned repository:
